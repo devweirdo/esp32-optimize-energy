@@ -1,0 +1,34 @@
+52 AE C3 26 D9 FF 00 6F 90 4E B1
+----
+28 celcius off
+
+
+52 AE C3 26 D9 FF 00 6F 90 46 B9
+-----
+28 celcius - on
+
+
+52 AE C3 26 D9 FF 00 6F 90 36 C9
+-----
+29 celcius - temp up
+
+
+52 AE C3 26 D9 FF 00 6F 90 26 D9
+-----
+30 celcius - temp down (max temp)
+
+
+52 AE C3 26 D9 FF 00 6F 90 56 A9
+-----
+27 celcius - temp down
+
+
+52 AE C3 26 D9 FF 00 6F 90 66 99
+-----
+26 celcius - temp down
+
+
+52 AE C3 26 D9 FF 00 6F 90 E6 19
+-----
+18 celcius - temp down (min temp)
+
