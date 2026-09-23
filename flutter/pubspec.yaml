@@ -1,0 +1,21 @@
+name: smart_room_app
+description: Flutter MQTT dashboard for ESP32 smart room thesis.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mqtt_client: ^10.11.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
