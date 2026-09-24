@@ -35,12 +35,12 @@ esp_err_t ir_transmitter_init(void)
     return ESP_OK;
 }
 
-// Generates the Mitsubishi payload dynamically based on our decoded formula
+// Mitsubishi payload
 void set_ac_state(ir_ac_data_t *ac_data, int temp_c, bool power_on) 
 {
     ac_data->length = AC_PAYLOAD_BYTES;
     
-    // The static first 9 bytes
+    // static first 9 bytes
     uint8_t base_payload[9] = {0x52, 0xAE, 0xC3, 0x26, 0xD9, 0xFF, 0x00, 0x6F, 0x90};
     memcpy(ac_data->bytes, base_payload, 9);
     
